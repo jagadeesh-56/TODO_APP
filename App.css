@@ -1,0 +1,72 @@
+
+.body,
+html {
+	height: 100%;
+	background: #a53b3b80;
+   
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 46px;
+}
+.todo p{
+    width: 90%;
+}
+.status button{
+    margin: 2px;
+    border-radius: 100px;
+    border: 1px solid lightgray;
+}
+.complete{
+    background-color: #8fd3e7;
+    color: white;
+    font-size: 20px;
+    
+}
+.delete{
+    background-color: red;
+    columns: white;
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+    margin: 18px;
+    border-radius: 5px;
+    border: 2;
+    width: 95%;
+    outline: none;
+}
+.todos{
+    height: 400px;
+    overflow: auto;
+    /* background:rgb(145, 139, 139); */
+    background-color: lightslategrey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.developer{
+    background: maroon;
+    width: 200px;
+    text-align: center;
+    columns: white;
+    transform: rotate(-32deg);
+    position: absolute;
+    top: 40px;
+    left: -36px;
+    padding: 5px;
+    border-radius: 87px;
+}
+.developer a
+{
+    color: white;
+}
